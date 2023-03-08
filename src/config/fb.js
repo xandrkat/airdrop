@@ -3,14 +3,14 @@ import 'firebase/analytics';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: 'abigo-share.firebaseapp.com',
-  databaseURL: 'https://abigo-share.firebaseio.com',
-  projectId: 'abigo-share',
-  storageBucket: 'abigo-share.appspot.com',
-  messagingSenderId: process.env.REACT_APP_SENDER_ID,
-  appId: process.env.REACT_APP_ID,
-  measurementId: process.env.REACT_APP_MEASURMENT_ID,
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: "xkatfcm.firebaseapp.com",
+    databaseURL: "https://xkatfcm-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "xkatfcm",
+    storageBucket: "xkatfcm.appspot.com",
+    messagingSenderId: process.env.REACT_APP_SENDER_ID,
+    appId: process.env.REACT_APP_ID,
+    measurementId: process.env.REACT_APP_MEASURMENT_ID
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
